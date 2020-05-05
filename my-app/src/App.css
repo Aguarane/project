@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  background-color: rgb(37, 1, 1);
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+ 
+.App-logo {
+  height: 40vmin;
+}
+ 
+.App-header {
+ 
+}
+ 
+.App-link {
+  color: #09d3ac;
+}
+ 
+body{
+  background:rgb(68, 6, 6);
+}
+ 
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+.container {
+  margin-right: 100%;
+}
+#img1{
+ background-image: url('./4.PNG');
+}
+#img2{
+  background-image: url('./5.PNG');
+}
+#img3{
+  background-image: url('./3.PNG');
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  color: aliceblue;
+}
+.container .btn {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 500px;
+ 
+}
+.container .btn:hover {
+  background-color:brown
+}
+.btn:hover{
+  display: flex;
+  transition-duration: 0.5s;
+}
+.tof{
+  width: 50%;
+  padding: 5px;
+}
+#logo{
+  margin-right: 1000px;
+}
+.custom{
+  width: 100%;
+  padding: 5px;
+}
+.but1{
+  position: absolute;
+  text-align: center;
+  left: 700px;
+  margin-top: 200px;
+}
+.text{
+  color: white;
+}
+.but1{
+  border-radius: 8px;
+  background-color:gray;
+}
+.titre{
+  color: white;
+}
+.ah {
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: initial;
+}
+.ahh{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: initial;
+}
+.a{
+  color: #09d3ac;
+}
